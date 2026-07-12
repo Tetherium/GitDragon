@@ -14,7 +14,7 @@ export default function Home() {
   const [copied, setCopied] = useState(false);
   const [feedMsg, setFeedMsg] = useState('');
 
-  const [origin, setOrigin] = useState('https://dragon-tamagotchi.vercel.app');
+  const [origin, setOrigin] = useState('https://git-dragon.vercel.app');
 
   // Safely grab the client-side origin after mount to avoid hydration mismatch
   useEffect(() => {
