@@ -172,7 +172,7 @@ export async function GET(request) {
     
     <!-- Sub Info -->
     <text x="0" y="132" class="retro-text sub-stats">
-      ${state !== 'dead' && nextStateRequired ? `Next Evolution: ${nextStateRequired} Days Streak (${nextStateName})` : state === 'dead' ? 'To revive: push 1 commit' : 'Max Level reached!'}
+      ${state !== 'dead' && nextStateRequired ? `Next Evolution: ${nextStateRequired} Commit Days (${nextStateName})` : state === 'dead' ? 'To revive: push 1 commit' : 'Max Level reached!'}
     </text>
   </g>
 </svg>`;

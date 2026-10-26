@@ -27,16 +27,16 @@ You don't need to install any scripts, configure workflows, or run cron jobs. Ev
 
 ## 🧬 Evolution Guide
 
-Keep your commit streak active to hatch and evolve your dragon. If you stop pushing code, your pet will starve and eventually turn into a ghost!
+Keep your commit streak active to hatch and evolve your dragon. You don't have to commit every day: **you can skip up to 3 days between commits** and your dragon keeps growing from where it left off. Only days with commits count toward the streak. If you go more than 3 days without a commit, your pet turns into a ghost!
 
 | Stage | Commit Streak | State | Sprite Preview |
 | :--- | :--- | :--- | :---: |
-| **Egg** | 0 - 2 Days | A mystical dragon egg pulsing with potential life. | <img src="public/egg.png" width="48" height="48" image-rendering="pixelated" /> |
-| **Baby** | 3 - 7 Days | A tiny, adorable newborn dragon exploring the world. | <img src="public/baby.png" width="48" height="48" image-rendering="pixelated" /> |
-| **Teenager** | 8 - 20 Days | A proud, energetic teenager testing its wings. | <img src="public/teenager.png" width="48" height="48" image-rendering="pixelated" /> |
-| **Legendary** | 21+ Days | A magnificent adult dragon breathing pixelated plasma. | <img src="public/legendary.png" width="48" height="48" image-rendering="pixelated" /> |
-| **Sad / Starving** | 48-Hour Gap | Droopy wings and crying eyes. Feed it before it's too late! | <img src="public/sad.png" width="48" height="48" image-rendering="pixelated" /> |
-| **Dead (Ghost)** | 5-Day Gap | Turned into a skeleton ghost. Revive it by pushing a commit. | <img src="public/dead.png" width="48" height="48" image-rendering="pixelated" /> |
+| **Egg** | 0 - 2 Commit Days | A mystical dragon egg pulsing with potential life. | <img src="public/egg.png" width="48" height="48" image-rendering="pixelated" /> |
+| **Baby** | 3 - 7 Commit Days | A tiny, adorable newborn dragon exploring the world. | <img src="public/baby.png" width="48" height="48" image-rendering="pixelated" /> |
+| **Teenager** | 8 - 20 Commit Days | A proud, energetic teenager testing its wings. | <img src="public/teenager.png" width="48" height="48" image-rendering="pixelated" /> |
+| **Legendary** | 21+ Commit Days | A magnificent adult dragon breathing pixelated plasma. | <img src="public/legendary.png" width="48" height="48" image-rendering="pixelated" /> |
+| **Sad / Starving** | 2 - 3 Day Gap | Droopy wings and crying eyes. Commit in time and it keeps its stage and progress! | <img src="public/sad.png" width="48" height="48" image-rendering="pixelated" /> |
+| **Dead (Ghost)** | 4+ Day Gap | The streak is lost and it turns into a ghost. A new commit hatches a new egg. | <img src="public/dead.png" width="48" height="48" image-rendering="pixelated" /> |
 
 ---
 

@@ -286,6 +286,9 @@ export default function Home() {
       {/* Rules Section */}
       <section className={styles.rulesSection}>
         <h2 className={styles.rulesTitle}>DRAGON EVOLUTION GUIDE</h2>
+        <p className={styles.subtitle} style={{ textAlign: 'center', margin: '0 auto 2rem' }}>
+          No need to commit every day: you can skip up to 3 days between commits and your dragon keeps growing from where it left off.
+        </p>
         
         <div className={styles.rulesGrid}>
           {/* Egg */}
@@ -294,7 +297,7 @@ export default function Home() {
               <img src={dragonAssets.egg} alt="Egg" className={styles.ruleImg} />
             </div>
             <span className={styles.ruleStateName}>Egg</span>
-            <div className={styles.ruleRange}>0 - 2 Days</div>
+            <div className={styles.ruleRange}>0 - 2 Commit Days</div>
             <p className={styles.ruleDesc}>The developer has just started committing. A mystical egg showing signs of life.</p>
           </div>
 
@@ -304,7 +307,7 @@ export default function Home() {
               <img src={dragonAssets.baby} alt="Baby" className={styles.ruleImg} />
             </div>
             <span className={styles.ruleStateName}>Baby</span>
-            <div className={styles.ruleRange}>3 - 7 Days</div>
+            <div className={styles.ruleRange}>3 - 7 Commit Days</div>
             <p className={styles.ruleDesc}>A cute baby dragon newly hatched from its egg. Has tiny wings and explores with curious eyes.</p>
           </div>
 
@@ -314,7 +317,7 @@ export default function Home() {
               <img src={dragonAssets.teenager} alt="Teenager" className={styles.ruleImg} />
             </div>
             <span className={styles.ruleStateName}>Teenager</span>
-            <div className={styles.ruleRange}>8 - 20 Days</div>
+            <div className={styles.ruleRange}>8 - 20 Commit Days</div>
             <p className={styles.ruleDesc}>A proud and energetic teenage dragon. Eagerly testing its wings and gaining confidence.</p>
           </div>
 
@@ -324,7 +327,7 @@ export default function Home() {
               <img src={dragonAssets.legendary} alt="Legendary" className={styles.ruleImg} />
             </div>
             <span className={styles.ruleStateName}>Legendary</span>
-            <div className={styles.ruleRange}>21+ Days</div>
+            <div className={styles.ruleRange}>21+ Commit Days</div>
             <p className={styles.ruleDesc}>A majestic adult dragon breathing fire. The ultimate symbol of developer dedication!</p>
           </div>
 
@@ -334,8 +337,8 @@ export default function Home() {
               <img src={dragonAssets.sad} alt="Sad / Starving" className={styles.ruleImg} />
             </div>
             <span className={styles.ruleStateName}>Sad / Starving</span>
-            <div className={styles.ruleRange}>48-Hour Gap</div>
-            <p className={styles.ruleDesc}>No commits in the last 48 hours. Wings dropped, teary eyes, in urgent need of a commit to feed.</p>
+            <div className={styles.ruleRange}>2 - 3 Day Gap</div>
+            <p className={styles.ruleDesc}>No commits for 2-3 days. Wings dropped, teary eyes. Commit in time and it keeps its stage and progress.</p>
           </div>
 
           {/* Dead */}
@@ -344,8 +347,8 @@ export default function Home() {
               <img src={dragonAssets.dead} alt="Dead" className={styles.ruleImg} />
             </div>
             <span className={styles.ruleStateName}>Dead</span>
-            <div className={styles.ruleRange}>5-Day Gap</div>
-            <p className={styles.ruleDesc}>No commits in the last 5 days. The dragon has turned into a skeleton ghost. Can be revived with a new commit.</p>
+            <div className={styles.ruleRange}>4+ Day Gap</div>
+            <p className={styles.ruleDesc}>No commits for more than 3 days. The streak is lost and the dragon turns into a ghost. A new commit hatches a new egg.</p>
           </div>
         </div>
       </section>
